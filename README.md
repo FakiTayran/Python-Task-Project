@@ -11,4 +11,8 @@
 <h5>AS_2 Gif While Working<h5>
 ![AS_2](https://user-images.githubusercontent.com/70612757/182692234-1b566a57-a001-4014-82aa-c2a7715491e7.gif)
 
+  
+Both project needs Databas Migrations 
+I added some Database Seed function for your Test 
+  
 <p>Thanks for your time</p>
