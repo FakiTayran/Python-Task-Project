@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <code>
+[
+        {% for vehiclelocation in vehiclelocations %}
+       <br>
+                {
+                    latitude :{{vehiclelocation.latitude}},<br>
+                    longitude:{{vehiclelocation.longitude}},<br>
+                    vehicle_plate: "{{ vehiclelocation.vehicle.plate }}",<br>
+                    datetime : {{vehiclelocation.datetime}}
+                },
+       <br>
+       {% endfor %}
+
+]
+
+</code>
+
+
+
+</body>
+</html>
